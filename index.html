@@ -6,7 +6,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=No">
         
-        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">-->
+        <link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,7 +17,55 @@
             
             body{
 
-                font-family: 'Rubik', sans-serif;
+                font-family: 'Rubik', 'Open-Sans', sans-serif;
+
+            }
+
+            .rubik-font{
+
+                font-family: 'Rubik', 'Open-Sans';
+
+            }
+
+            a:-webkit-any-link {
+                color: none;
+                cursor: pointer;
+                text-decoration: none;
+            }
+
+            a#link-1:hover{
+                color:#f19201;
+                text-decoration:none; 
+                  
+            }
+
+            a#link-2:hover{
+                color:#f16e3a;
+                text-decoration: none;
+                font-weight: bolder; 
+                font-size: 17px;
+                  
+            }
+
+            a#link-3:hover{
+                color:#f16e3a;
+                text-decoration:underline; 
+                font-weight: bolder;
+                  
+            }
+
+            a#link-4:hover{
+                color:white;
+                font-weight: 700;
+                text-decoration: underline;
+                  
+            }
+
+            button#button-1:hover{
+
+                background-color: white;
+                color:#f16e3a;
+                text-decoration:none; 
 
             }
 
@@ -42,6 +92,12 @@
 
             }
 
+            .add-more-spacing{
+
+                padding: 30px 0 50px;
+
+            }
+
 
             li{
 
@@ -49,25 +105,13 @@
                 display: block;
                 padding: 8px 8px 5px;
                 text-decoration: none;
-                font-weight: bold;
+                /*font-weight: 400;*/
                 font-size: 16px;
             }
 
             a{
 
-                text-decoration: none;
-
-            }
-
-            a hover{
-
-                text-decoration: none;
-
-            }
-
-            button hover{
-
-                text-decoration: none;
+                color: inherit;
 
             }
 
@@ -78,14 +122,15 @@
                 width: 105px;
                 height: 32px;
                 font-size: 16px;
-                font-weight: 500;
+                /*font-weight: 500;*/
                 background-color: #f16e3a;
+                border-color: #f16e3a;
 
             }
 
             .Boost-master-logo_gray{
 
-                width:113px;
+                width:125px;
                 height:52px;
                 float: left;
                 padding: 8px 15px 3px;
@@ -96,38 +141,46 @@
 
             .jumbotron{
 
-                /**temporary**/
-                background-color: #eeeeee;
-
+                background-color: black;
                 background-image: url(hero.png);
                 width: 100%;
                 position: relative;
                 float: left;
                 padding: 0;
                 margin:0;
+                border-radius: 0px;
+
+            }
+
+            #jumbotron-h3{
+
+                width: 44%;
 
             }
 
             h1{
 
-                font-size: 48px;
+                font-size: 36px;
                 padding: 0;
+                color: white;
 
             }
 
             h3{
 
                 padding: 0;
-                font-size: 30px;
-                font-weight: bold;
+                font-size: 22px;
+                font-weight: normal;
+                font-family: "Open Sans";
+                color: white;
 
             }
 
             .vertically-centered-indented{
 
 
-                padding: 60px 0 350px;
-                margin-left: 50px;
+                padding: 300px 0 300px;
+                margin-left: 100px;
 
 
             }
@@ -135,8 +188,15 @@
             .jumbotron-buttons{
 
                 border-radius: 37px;
-                font-size: 30px;
-                font-weight: 400;
+                font-size: 26px;
+                padding: .1em 1em;
+
+            }
+
+            .smaller-buttons{
+
+                border-radius: 37px;
+                font-size: 20px;
                 padding: .1em 1em;
 
             }
@@ -162,20 +222,20 @@
 
             .pen-icon{
 
-                width: 110px;
-                height: 121px;
+                width: 78px;
+                height: 100px;
 
             }
 
             .computer-icon{
 
-                width: 130px;
-                height: 121px;
+                width: 115px;
+                height: 100px;
             }
 
             table{
 
-                width: 100%;
+                width: 90%;
 
             }
 
@@ -190,29 +250,46 @@
 
                 width: 100%;
                 float: left;
-                padding: 0;
                 margin:0;
-                padding: 40px 0;
+                padding: 80px 0;
+
+            }
+
+            .logo-and-boost{
+
+                display: inline;
 
             }
 
             h2{
 
-                font-size: 36px;
-                font-weight: 600;
+                font-size: 27px;
+                /*font-weight: 500;*/
 
             }
 
             p{
 
-                font-size: 20px;
+                font-size: 16px;
                 font-family: "Open-Sans";
+
+            }
+
+            iframe{
+
+                width: 100%;
 
             }
 
             .understand-boost-columns{
 
-                width: 50%;
+                width: 40%;
+
+            }
+
+            h4{
+
+                font-size: 18px;
 
             }
 
@@ -234,7 +311,7 @@
                 width: 100%;
                 float: left;
                 margin:0;
-                padding: 40px 0 40px 0;
+                padding: 40px 0 20px 0;
 
             }
 
@@ -242,7 +319,15 @@
 
                 border-radius: 37px;
                 font-size: 16px;
-                font-weight: 500;
+                padding: .75em 6em;
+                margin: 20px 0 30px;
+
+            }
+
+            .create-account-jumbotron-button{
+
+                border-radius: 37px;
+                font-size: 16px;
                 padding: .75em 3em;
 
             }
@@ -256,24 +341,23 @@
 
             .bottom-links{
 
-                text-align: center;
                 width: 100%;
                 float: left;
                 margin:0;
-                padding: 20px 0 20px 0;
-                font-family: 
+                padding: 20px 0px 20px 80px;
 
             }
 
             #link-headings{
 
-                font-weight: bolder;
+                /*font-weight: bolder;*/
 
             }
 
             .copyright{
 
-                padding: 20px 0 10px 0;
+                padding: 20px 0 50px 0;
+                text-align: center;
 
             }
 
@@ -317,57 +401,158 @@
 
             }
 
-            hr{
+            .container{
 
-                width: 30%;
-                color: orange;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 auto;
+                align-items: center;
 
             }
 
-            .members-bg{
+            .spaced-apart{
+
+                padding: 20px;
+
+            }
+
+            .partner-width{
+
+                width: 250px;
+
+            }
+
+            .jumbotron-spacing{
+
+                padding: 0px 0px 10px;
+
+
+            }
+
+            .shadow{
+
+                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+            }
+
+            .bold{
+
+                font-weight: bold;
+
+            }
+
+            #center-fine-print{
+
+                float: left;
+                text-align: center;
+
+            }
+
+            .emotions-bg{
 
                 text-align: center;
                 width: 100%;
                 float: left;
                 margin:0;
-                padding: 60px 0 80px 0;
-
-            }
-
-            .advisors-bg{
-
-                text-align: center;
-                width: 100%;
-                float: left;
-                margin:0;
-                padding: 60px 0 80px 0;
+                padding: 40px 0 80px 0;
 
             }
 
             #table-width{
 
-                width: 90%;
+                width: 70%;
 
             }
 
             #column-width{
 
-                width: 40%;
-                padding: 20px 10px;
+                width: 50%;
+                padding: 20px;
             }
 
             #large-font{
 
-                font-size: 36px;
+                font-size: 27px;
 
             }
 
-            .pic-padding{
+            hr{
 
-                padding: 20px 10px;
+                width: 20%;
+                margin-top: 100px; 
+                margin-bottom: 0; 
+                padding: 0;
+                height:0; 
+                border:0; 
+                border-top:1px solid #f16e3a;
+
+            }
+
+            .editor-logo{
+
+                width: 200px;
+                height: 40px;
+
+            }
+
+            .row-padding{
+
+                padding: 5px 5px;
+            }
+
+            .bottom-padding{
+
+                padding-bottom: 7px;
+
+            }
+
+            .marketing-insider{
+
+                width: 100%;
+                float: left;
+                margin:0;
+                padding: 80px 0;
+                background-color: #fafafa;
+
+            }
+
+            .get-case-study-button{
+
+                border-color: #f16e3a;
+
+            }
+
+            figcaption{
+
+                font-style: italic;
+                padding: 10px 0;
+
+            }
+
+            .no-padding{
+
                 margin: 0;
 
             }
+
+            .brenner{
+
+                width: 200px;
+                height: 200px;
+
+            }
+
+            .img{
+                width: 190px;
+                height: 190px;
+            }
+
+            .love{
+
+                width: 18px;
+                height: 18px;
+
 
         </style>
   
@@ -383,26 +568,23 @@
 
 
         <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
-          <a href=""><img src="boost/boost-master-logo.png" class="Boost-master-logo_gray navbar-brand d-flex mr-auto"></a> 
+          <a href=""><img src="boost-master-logo.png" class="Boost-master-logo_gray navbar-brand d-flex mr-auto"></a> 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
             <span class="navbar-toggler-icon"></span>
           </button>
           <nav class="navbar-collapse collapse" id="collapsingNavbar3">
             <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
               <li class="nav-item">
-                <a class="nav-link orange-font" style="color: #f16e3a;" href="#">Editor</a>
+                <a id="link-3" class="nav-link orange-font" style="color: #f16e3a;" href="#">Editor</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link orange-font" style="color: #f16e3a;" href="#">API</a>
+                  <a id="link-3" class="nav-link orange-font" style="color: #f16e3a;" href="#">Blog</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link orange-font" style="color: #f16e3a;" href="#">Blog</a>
+                  <a id="link-3" class="nav-link orange-font" style="color: #f16e3a;" href="#">Sign In</a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link orange-font" style="color: #f16e3a;" href="#">Sign In</a>
-              </li>
-              <li class="nav-item">
-                  <button class="nav-link my-2 my-sm-0" type="button" id="sign-up"><a class="white-font" href = "">Sign up</a></button>
+              <li style="margin-top: 2px;" class="nav-item">
+                  <button style="padding: 4px;" class="nav-link my-2 my-sm-0" type="button" id="sign-up"><a id="link-4" class="white-font" href = "">Sign up</a></button>
               </li>
             </ul>
           </nav>
@@ -412,7 +594,7 @@
         
         <div class="vertically-centered-indented">
           
-          <h1 class="add-spacing">At Boost Linguistics ...</h1>
+          <!--<h1 class="add-spacing">At Boost Linguistics ...</h1>-->
 
         </div>
         
@@ -421,27 +603,19 @@
 
       <section class="understand-boost">
         
-        <table align="center">
-
-          <tr>
-            
-            <td class="understand-boost-columns">
-
-              <h3 class="orange-font">At Boost Linguistics, ideas come from anywhere and are constantly evolving.</h2>
-              <p>We approach things differently, bringing seemingly dispirate concepts together to create something new.</p>
-              <p>We are unapologetic about who we are as individuals. We are unabashedly ourselves.</p>
-              <p>Here, honesty is an obligation to each other and leadership is as much about supporting as it is directing.</p>
-              <p>We know that while we can accomplish the task alone, we could never accomplish the goal without each other.</p>
-              <p>At Boost Linguistics we are better together.</p>
-
-            </td>
-
-            <td class="understand-boost-columns"><img src="squad.png">></td>
-
-          </tr>
-
-
-        </table>
+        <div class="row justify-content-center row-padding">
+            <div style="padding-top: 20px;" class="col-sm-5">
+              <h2 class="orange-font">...ideas come from anywhere and are constantly evolving.</h2>
+              <p style="font-family:Open Sans;">We approach things differently, bringing seemingly dispirate concepts together to create something new.</p>
+              <p style="font-family:Open Sans;">We are unapologetic about who we are as individuals. We are unabashedly ourselves.</p>
+              <p style="font-family:Open Sans;">Here, honesty is an obligation to each other and leadership is as much about supporting as it is directing.</p>
+              <p style="font-family:Open Sans;">We know that while we can accomplish the task alone, we could never accomplish the goal without each other.</p>
+              <p style="font-family:Open Sans;">At Boost Linguistics we are better together.</p>
+            </div>
+            <div class="col-sm-5" style="padding-top: 70px;">
+              <img style="width: 100%;" src="bitmap.png">
+            </div>
+        </div>
 
         <hr>
 
@@ -451,212 +625,246 @@
 
       <section class="members-bg">
             
-            <h1>Our Team</h1>
+            <h1 class="orange-font" style="text-align: center;">Our Team</h1>
 
-            <table id="table-width" align="center">
-
-                <tr>
-                    
-                    <td class="pic-padding"><img src="ethan.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Ethan Bresnahan</h3> 
-                     <p>Uniter of great ideas. Youngest lobster salesman in MA, and master LEGO architect.</p>
-                    </td>
-                    <td class="pic-padding"><img src="alexandra.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Alexandra Dodson</h3> 
-                     <p>Drexel grad. Long distance dog lover. Proud Chicago native turned PHL resident.</p>   
-                    </td>
-
-                </tr>
-
-                <tr>
-                    
-                    <td class="pic-padding"><img src="ethan.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Jeff Nowak</h3> 
-                     <p>PHL native dreaming of DUB. Stoic. Always learning.</p>
-                    </td>
-                    <td class="pic-padding"><img src="alexandra.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Warren Kushner</h3> 
-                     <p>Philly native. Stuck here until I get my flux capacitor working.</p>   
-                    </td>
-
-                </tr>
-                <tr>
-                    
-                    <td class="pic-padding"><img src="ethan.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Aiswarya Sama</h3> 
-                     <p>Half from Atlanta and Half from India and completely love Philly. Can't stay away from chocolate.</p>
-                    </td>
-                    <td class="pic-padding"><img src="alexandra.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Esther Kleit</h3> 
-                     <p>Escapee from Penn State culture.  INFJ, Hufflepuff.</p>   
-                    </td>
-
-                </tr>
-
-                <tr>
-                    
-                    <td class="pic-padding"><img src="ethan.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Keshav Keswani</h3> 
-                     <p>Half from Atlanta and Half from India and completely love Philly. Can't stay away from chocolate.</p>
-                    </td>
-                    <td class="pic-padding"><img src="alexandra.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Nicolas Torres</h3> 
-                     <p>Philadelphia born and raised. In the classroom is where I spent most of my days. </p>   
-                    </td>
-
-                </tr>
-
-                <tr>
-                    
-                    <td class="pic-padding"><img src="ethan.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Meet Palan</h3> 
-                     <p>🇮🇳 to 🇺🇸. Soccer player. World traveler</p>
-                    </td>
-                    <td class="pic-padding"><img src="alexandra.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Liz Mak</h3> 
-                     <p>Word nerd. Dreaming of topics. </p>   
-                    </td>
-
-                </tr>
-
-                <tr>
-                    
-                    <td class="pic-padding"><img src="ethan.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Jonah Listokin </h3> 
-                     <p>Connecticut expat living in Philly.  Collector of hot chocolate from around the globe.</p>
-                    </td>
-                    <td class="pic-padding"><img src="alexandra.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Sneha Kumar</h3> 
-                     <p>Aspiring time traveler with Ravenclaw roots. Web development and design. Cornell U.</p>   
-                    </td>
-
-                </tr>
-
-            </table>
+            <div class="row justify-content-center row-padding" style="padding: 40px 0">
+                <div class="col-2">
+                  <img class="img" src="ethan.png">
+                </div>
+                <div class="col-sm-3" style="padding: 12px 0 0 5px;">
+                    <h2>Ethan Bresnahan</h2>
+                    <p style="font-family: Open Sans">Uniter of great ideas. Youngest lobster salesman in MA, and master LEGO architect.</p>
+                    <p style="font-family: Open Sans; font-weight: bold;">Strategy and business development</p>
+                </div>
+                 <div class="col-2">
+                  <img class="img" src="alex.png">
+                </div>
+                <div class="col-sm-3" style="padding: 12px 0 0 5px;">
+                  <h2>Alexandra Dodson</h3> 
+                  <p style="font-family: Open Sans">Drexel grad. Long distance dog lover. Proud Chicago native turned PHL resident.</p>
+                  <br>   
+                  <p style="font-family: Open Sans; font-weight: bold;">Marketing and PR</p>
+                </div>
+            </div>
+            <div class="row justify-content-center row-padding" style="padding: 40px 0">
+                <div class="col-2">
+                  <img class="img" src="jeff.png">
+                </div>
+                <div class="col-sm-3" style="padding: 12px 0 0 5px;">
+                    <h2>Jeff Nowak</h2>
+                    <p style="font-family: Open Sans">PHL native dreaming of DUB. Stoic. Always learning.</p>
+                    <br>
+                    <p style="font-family: Open Sans; font-weight: bold;">Product and sales</p>
+                </div>
+                 <div class="col-2">
+                  <img class="img" src="warren.png">
+                </div>
+                <div class="col-sm-3" style="padding: 12px 0 0 5px;">
+                  <h2>Warren Kushner</h3> 
+                  <p style="font-family: Open Sans">Philly native. Stuck here until I get my flux capacitor working.</p>
+                  <br>   
+                  <p style="font-family: Open Sans; font-weight: bold;">AI and data science</p>
+                </div>
+            </div>
 
             <hr>
 
-        </section>
- 
+            <h1 class="orange-font" style="text-align: center; padding-top: 50px">Advisors</h1>
 
-        </section class="advisors-bg">
-            
-            <h1 style="text-align: center;">Advisors</h1>
-
-            <table id="table-width" align="center">
-
-                <tr>
-                    
-                    <td class="pic-padding"><img src="ethan.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Michael Brenner</h3> 
-                     <p>Top 3 Content Marketing Influencer. Author of bestelling book The Content Formula.</p>
-                    </td>
-                    <td class="pic-padding"><img src="alexandra.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Evan Hosie</h3> 
-                     <p>The Swiss Army Knife of Digital Publishing. Frmr Director@AOL. Founder@Daily Candid News.</p>
-                    </td>
-
-                </tr>
-
-                <tr>
-                    
-                    <td class="pic-padding"><img src="ethan.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Courtney Sabo</h3> 
-                     <p>Interested and interesting. Former designer for Apple, now Sr. UX@Salesforce.</p>
-                    </td>
-                    <td class="pic-padding"><img src="alexandra.png"></td>
-                    <td id="column-width" align="left">
-                     <h3>Drew Schulz</h3> 
-                     <p>Wharton MBA returning to PHL with lessons from SF. Driven by data. </p>   
-                    </td>
-
-                </tr>
-            </table>
-        
-
-        <section>
-            
+            <div class="row justify-content-center row-padding" style="padding: 40px 0">
+                <div class="col-2">
+                  <img class="img" src="michael.png">
+                </div>
+                <div class="col-sm-3" style="padding: 12px 0 0 5px;">
+                    <h2>Michael Brenner</h2>
+                    <br>
+                    <p style="font-family: Open Sans">Top 3 Content Marketing Influencer. Author of bestelling book <em>The Content Formula.</em></p>
+                </div>
+                 <div class="col-2">
+                  <img class="img" src="evan.png">
+                </div>
+                <div class="col-sm-3" style="padding: 12px 0 0 5px;">
+                  <h2>Evan Hosie</h3> 
+                  <br>
+                  <p style="font-family: Open Sans">The Swiss Army Knife of Digital Publishing. Frmr Director@AOL. Founder@Daily Candid News.</p>  
+                </div>
+            </div>
+            <div class="row justify-content-center row-padding" style="padding: 40px 0">
+                <div class="col-2">
+                  <img class="img" src="courtney.png">
+                </div>
+                <div class="col-sm-3" style="padding: 12px 0 0 5px;">
+                    <h2>Courtney Sabo</h2>
+                    <br>
+                    <p style="font-family: Open Sans">Interested and interesting. Former designer for Apple, now Sr. UX@Salesforce.</p>
+                </div>
+                 <div class="col-2">
+                  <img class="img" src="drew.png">
+                </div>
+                <div class="col-sm-3" style="padding: 12px 0 0 5px;">
+                  <h2>Drew Schulz</h3> 
+                  <br>
+                  <p style="font-family: Open Sans">Wharton MBA returning to PHL with lessons from SF. Driven by data.</p>  
+                </div>
+            </div>
+            <div class="row justify-content-center row-padding" style="padding: 40px 0">
+                <div class="col-2">
+                  <img class="img" src="ray.png">
+                </div>
+                <div class="col-sm-3" style="padding: 12px 0 0 5px;">
+                    <h2>Ray Phan, PhD</h2>
+                    <br>
+                    <p style="font-family: Open Sans">Perpetual student, bridge between academia and commercialization. Advanced Computer Vision@Zebra.</p>
+                </div>
+                 <div class="col-2">
+                </div>
+                <div class="col-sm-3" style="padding: 12px 0 0 5px;">
+                </div>
+            </div>
 
         </section>
 
       <section class="create-your-account">
         
         <h2 class="white-font add-spacing">Join the team</h2>
-        <p class="white-font">Thanks for making it this far, you might have what it takes to leap the alligator infested moat to join the Boost team. Drop us a line.</p>
-        <p class="white-font">-With love from us</p>
-        <button type="button" class="create-account-button"><a class="orange-font" href = "">Apply to Boost Linguistics</a></button>
+        <p class="white-font" style="font-family: Open Sans">Thanks for making it this far, you might have what it takes to leap the<br>alligator infested moat to join the Boost team. Drop us a line.</p>
+        <p class="white-font" style="font-family: Open Sans">-With <img class="love" src="with-love.png"> from us</p>
+        <a id="link-1" class="white-font" href = ""><button type="button" id="button-1" class="create-account-button clear-buttons white-font">Learn More</button></a>
 
       </section>
 
       <footer class="bottom-links">
-        
-        <table align="center" class="orange-font">
           
-          <tr align="left" id="link-headings" class="footer-padding">
-            
-            <td id="bottom-td">Pages</td>
-            <td>Resources</td>
-            <td>Legal</td>
-            <td>Join the community</td>
+        <div class="row justify-content-center">
 
-          </tr>
+           <div class="col-sm-3">
+               <div class="row justify-content-start orange-font">
+                   
+                    <div class="col-8">  
+                        <p style="font-family: Rubik">Pages</p>
+                    </div>
 
-          <tr align="left" class="footer-padding">
-            
-            <td><a class="orange-font" href = "">Home</a></td>
-            <td><a class="orange-font" href = "">Boost Blog</a></td>
-            <td><a class="orange-font" href = "">Privacy Policy</a></td>
-            <td rowspan="2">
-              
-              <a href=""><img class = "footer-logos" src="boost/facebook-icon.png"></a>
-              <a href=""><img class = "footer-logos" src="boost/twitter-icon.png"></a>
-              <a href=""><img class = "footer-logos" src="boost/linkedin-icon.png"></a>
+                </div>
 
-            </td>
+                <div class="row justify-content-start orange-font">
 
-          </tr>
+                    <div class="col-8 bottom-padding">  
+                        <a style="font-family:Open Sans;" id="link-3" class="orange-font" href = "">Home</a>
+                    </div>
 
-          <tr align="left" class="footer-padding">
-            
-            <td><a class="orange-font" href = "">Boost my content</a></td>
-            <td><a class="orange-font" href = "">Videos</a></td>
-            <td><a class="orange-font" href = "">Terms of Use</a></td>
-            <td></td>
+                </div>
 
-          </tr>
+                <div class="row justify-content-start orange-font">
 
-          <tr align="left" class="footer-padding">
-            
-            <td><a class="orange-font" href = "">Integrate Boost AI</a></td>
-            <td><a class="orange-font" href = "">Tutorials</a></td>
-            <td></td>
-            <td></td>
+                    <div class="col-8 bottom-padding">  
+                        <a style="font-family:Open Sans;" id="link-3" class="orange-font" href = "">Boost Content</a>
+                    </div>
 
-          </tr>
+                </div>
 
-        </table>
+            </div>
 
-        <table class = "copyright" align="center">
-          
-          <tr><th class="footer-font">Boost Linguistics &copy;</th></tr>
-          <tr><td class="footer-font">Made with <img src="boost/love.png"> in Philly</td></tr>
-        
-        </table>
+            <div class="col-sm-3">
+               <div class="row justify-content-start orange-font">
+                   
+                    <div class="col-8">  
+                        <p style="font-family: Rubik">Resources</p>
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-start orange-font">
+
+                    <div class="col-8 bottom-padding">  
+                        <a style="font-family:Open Sans;" id="link-3" class="orange-font" href = "" target="_blank">Boost Blog</a>
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-start orange-font">
+
+                    <div class="col-8 bottom-padding">  
+                        <a style="font-family:Open Sans;" id="link-3" class="orange-font" href = "" target="_blank">Videos</a>
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-start orange-font">
+
+                    <div class="col-8 bottom-padding">  
+                        <a style="font-family:Open Sans;" id="link-3" class="orange-font" href = "" target="_blank">Tutorials</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+               <div class="row justify-content-start orange-font">
+                   
+                    <div class="col-8">  
+                        <p style="font-family: Rubik">Legal</p>
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-start orange-font">
+
+                    <div class="col-8 bottom-padding">  
+                        <a style="font-family:Open Sans;" id="link-3" class="orange-font" href = "">Privacy Policy</a>
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-start orange-font">
+
+                    <div class="col-8 bottom-padding">  
+                        <a style="font-family:Open Sans;" id="link-3" class="orange-font" href = "">Terms of Use</a>
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-start orange-font">
+
+                    <div class="col-8 bottom-padding">  
+                        <p style="font-family: Open Sans"></p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+               <div class="row justify-content-start orange-font">
+                   
+                    <div class="col-8">  
+                        <p style="font-family: Rubik">Join the Community</p>
+                    </div>
+
+                </div>
+
+                <div style="padding-left: 6px;" class="row justify-content-start orange-font">
+
+                    <a href="" target="_blank"><img class = "footer-logos" src="facebook-icon.png"></a>
+                    <a href="" target="_blank"><img class = "footer-logos" src="twitter-icon.png"></a>
+                    <a href="" target="_blank"><img class = "footer-logos" src="linkedin-icon.png"></a>
+                </div>
+
+                <div class="row justify-content-start orange-font">
+
+                    <div class="col-8">  
+                        <p style="font-family: Open Sans"></p>
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-start orange-font">
+
+                    <div class="col-8">  
+                        <p style="font-family: Open Sans"></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
       </footer>
  

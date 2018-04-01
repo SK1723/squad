@@ -34,7 +34,7 @@
             }
 
             a#link-1:hover{
-                color:#f19201;
+                color:#f16e3a;
                 text-decoration:none; 
                   
             }
@@ -67,6 +67,10 @@
                 color:#f16e3a;
                 text-decoration:none; 
 
+            }
+
+            .navbar-light .navbar-nav .nav-link {
+                color: white;
             }
 
             .open-sans{
@@ -105,7 +109,6 @@
                 display: block;
                 padding: 8px 8px 5px;
                 text-decoration: none;
-                /*font-weight: 400;*/
                 font-size: 16px;
             }
 
@@ -116,15 +119,15 @@
             }
 
 
-            #sign-up{
+            .sign-up{
 
                 border-radius: 100px;
                 width: 105px;
                 height: 32px;
                 font-size: 16px;
-                /*font-weight: 500;*/
                 background-color: #f16e3a;
                 border-color: #f16e3a;
+                color: white;
 
             }
 
@@ -179,7 +182,7 @@
             .vertically-centered-indented{
 
 
-                padding: 300px 0 300px;
+                padding: 100px 0 450px;
                 margin-left: 100px;
 
 
@@ -584,7 +587,7 @@
                   <a id="link-3" class="nav-link orange-font" style="color: #f16e3a;" href="#">Sign In</a>
               </li>
               <li style="margin-top: 2px;" class="nav-item">
-                  <button style="padding: 4px;" class="nav-link my-2 my-sm-0" type="button" id="sign-up"><a id="link-4" class="white-font" href = "">Sign up</a></button>
+                  <a id="link-1" href = ""><button style="padding: 4px;" class="nav-link my-2 my-sm-0 sign-up white-font" type="button" id="button-1">Sign up</button></a>
               </li>
             </ul>
           </nav>
@@ -594,7 +597,7 @@
         
         <div class="vertically-centered-indented">
           
-          <!--<h1 class="add-spacing">At Boost Linguistics ...</h1>-->
+          <h1 class="add-spacing">At Boost Linguistics ...</h1>
 
         </div>
         
@@ -605,7 +608,7 @@
         
         <div class="row justify-content-center row-padding">
             <div style="padding-top: 20px;" class="col-sm-5">
-              <h2 class="orange-font">...ideas come from anywhere and are constantly evolving.</h2>
+              <h2 class="orange-font" style="padding-bottom:30px">...ideas come from anywhere and are constantly evolving.</h2>
               <p style="font-family:Open Sans;">We approach things differently, bringing seemingly dispirate concepts together to create something new.</p>
               <p style="font-family:Open Sans;">We are unapologetic about who we are as individuals. We are unabashedly ourselves.</p>
               <p style="font-family:Open Sans;">Here, honesty is an obligation to each other and leadership is as much about supporting as it is directing.</p>
@@ -633,17 +636,16 @@
                 </div>
                 <div class="col-sm-3" style="padding: 12px 0 0 5px;">
                     <h2>Ethan Bresnahan</h2>
-                    <p style="font-family: Open Sans">Uniter of great ideas. Youngest lobster salesman in MA, and master LEGO architect.</p>
                     <p style="font-family: Open Sans; font-weight: bold;">Strategy and business development</p>
+                    <p style="font-family: Open Sans">Uniter of great ideas. Youngest lobster salesman in MA, and master LEGO architect.</p>
                 </div>
                  <div class="col-2">
                   <img class="img" src="alex.png">
                 </div>
                 <div class="col-sm-3" style="padding: 12px 0 0 5px;">
                   <h2>Alexandra Dodson</h3> 
-                  <p style="font-family: Open Sans">Drexel grad. Long distance dog lover. Proud Chicago native turned PHL resident.</p>
-                  <br>   
                   <p style="font-family: Open Sans; font-weight: bold;">Marketing and PR</p>
+                  <p style="font-family: Open Sans">Drexel grad. Long distance dog lover. Proud Chicago native turned PHL resident.</p>  
                 </div>
             </div>
             <div class="row justify-content-center row-padding" style="padding: 40px 0">
@@ -652,18 +654,16 @@
                 </div>
                 <div class="col-sm-3" style="padding: 12px 0 0 5px;">
                     <h2>Jeff Nowak</h2>
-                    <p style="font-family: Open Sans">PHL native dreaming of DUB. Stoic. Always learning.</p>
-                    <br>
                     <p style="font-family: Open Sans; font-weight: bold;">Product and sales</p>
+                    <p style="font-family: Open Sans">PHL native dreaming of DUB. Stoic. Always learning.</p>
                 </div>
                  <div class="col-2">
                   <img class="img" src="warren.png">
                 </div>
                 <div class="col-sm-3" style="padding: 12px 0 0 5px;">
-                  <h2>Warren Kushner</h3> 
-                  <p style="font-family: Open Sans">Philly native. Stuck here until I get my flux capacitor working.</p>
-                  <br>   
+                  <h2>Warren Kushner</h3>  
                   <p style="font-family: Open Sans; font-weight: bold;">AI and data science</p>
+                  <p style="font-family: Open Sans">Philly native. Stuck here until I get my flux capacitor working.</p>
                 </div>
             </div>
 
@@ -867,6 +867,11 @@
         </div>
 
       </footer>
+
+      <div class="copyright">
+            <span style="font-family: Open Sans; font-weight:bold" class="orange-font">Boost Linguistics &copy;</span> 
+            <p style="font-family: Open Sans" class="orange-font">Made with <img src="love.png"> in Philly</p>
+        </div> 
  
 
     </body>
